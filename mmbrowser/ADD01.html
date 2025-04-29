@@ -41,11 +41,19 @@ $(this).attr("value","");
           }
     }
       </script><script xmlns="" type="text/javascript">
-	      $(document).ready(function() 
+	/***    $(document).ready(function() {
 	      $('.moreLess').click(function(ev) { 
 		$('#moreHelpText').toggle(); 
 		$('.moreLess').toggle(); 
-		}));
+		})}); ***/
+
+  $(document).ready(function() {
+    $('.moreLess').click(function(ev) { 
+      $('#moreHelpText').toggle(); 
+      $('.moreLess').toggle(); 
+    });
+  });
+	      
       </script><style xmlns="" type="text/css"></style><script type="text/javascript">
 
 var _gaq = _gaq || [];
